@@ -1,0 +1,17 @@
+[package]
+name = "qdp"
+version = "0.1.0"
+authors = ["T-O-R-U-S <bageliq@protonmail.com>"]
+edition = "2018"
+description = "An app to quickly deploy a mini-server on the current directory"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "^0.4.7"
+console = "^0.14.1"
+
+[dependencies.rocket_contrib]
+version = "^0.4.7"
+default-features = false
+features = ["serve"]
